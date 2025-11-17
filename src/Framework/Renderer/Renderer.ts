@@ -1,6 +1,8 @@
 import Parser from "../Parser/Parser";
 
 class Renderer {
+  private constructor() {}
+
   public static renderHTML(html: string, parent: Element) {
     const doc = Parser.convertStringIntoHTML(html);
 
